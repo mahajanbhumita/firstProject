@@ -27,7 +27,7 @@ public class BaseClass {
 		System.out.println("initializing a browser");
 		log.info("initializing a browser");
 		if(browsername.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		if(browsername.equals("firefox")) {
